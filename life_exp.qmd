@@ -3,16 +3,18 @@ title: "Life EXP"
 format: html
 editor: visual
 ---
+
 ```{r}
 library(tidyverse)
 ```
 
-
-# Abstract 
+# Abstract
 
 Here, I re-examine the analysis of Oeppen and Vaupel (2002).
 
-#Life Expenctancy Analysis
+Testing again September 4 2023
+
+# Life Expenctancy Analysis
 
 ```{r}
 gapminder::gapminder_unfiltered  |> 
@@ -23,4 +25,3 @@ gapminder::gapminder_unfiltered  |>
   arrange(year) ->
   sumdat
 ```
-
